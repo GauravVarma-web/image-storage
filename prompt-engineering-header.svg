@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#663399" />
+      <stop offset="50%" stop-color="#5B3092" />
+      <stop offset="100%" stop-color="#4A2777" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#headerGradient)" />
+
+  <!-- Grid Pattern -->
+  <g opacity="0.1">
+    <path d="M0,0 L1200,0 L1200,630 L0,630 L0,0 Z M100,100 L100,530 M200,100 L200,530 M300,100 L300,530 M400,100 L400,530 M500,100 L500,530 M600,100 L600,530 M700,100 L700,530 M800,100 L800,530 M900,100 L900,530 M1000,100 L1000,530 M1100,100 L1100,530 M100,100 L1100,100 M100,200 L1100,200 M100,300 L1100,300 M100,400 L1100,400 M100,500 L1100,500" 
+          stroke="white" stroke-width="0.5" fill="none" />
+  </g>
+
+  <!-- Left Side: Art Component -->
+  <g transform="translate(300, 315)">
+    <!-- Creative Prompt Cloud -->
+    <path d="M0,-80 C-50,-80 -70,-40 -60,0 C-70,40 -40,80 0,80 C40,80 70,40 60,0 C70,-40 50,-80 0,-80 Z" 
+          fill="#9c36b5" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+    
+    <!-- Artistic elements inside cloud -->
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Creative</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Prompt</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Design</text>
+    
+    <!-- Abstract brush strokes -->
+    <path d="M-40,-40 C-30,-50 -10,-30 -20,-20 C-10,-10 -30,0 -20,10" stroke="#ffb8eb" stroke-width="3" fill="none" stroke-linecap="round" />
+    <path d="M40,40 C30,50 10,30 20,20 C10,10 30,0 20,-10" stroke="#ffb8eb" stroke-width="3" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Right Side: Science Component -->
+  <g transform="translate(900, 315)">
+    <!-- Technical Framework -->
+    <rect x="-80" y="-80" width="160" height="160" rx="10" fill="#1864ab" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+    
+    <!-- Code-like elements -->
+    <rect x="-60" y="-60" width="120" height="20" rx="3" fill="#4dabf7" opacity="0.7" />
+    <rect x="-60" y="-30" width="80" height="20" rx="3" fill="#4dabf7" opacity="0.7" />
+    <rect x="-60" y="0" width="100" height="20" rx="3" fill="#4dabf7" opacity="0.7" />
+    <rect x="-60" y="30" width="60" height="20" rx="3" fill="#4dabf7" opacity="0.7" />
+    
+    <!-- Technical pattern -->
+    <circle cx="40" cy="-40" r="10" fill="none" stroke="#74c0fc" stroke-width="2" />
+    <circle cx="40" cy="-40" r="5" fill="#74c0fc" />
+    <line x1="40" y1="-30" x2="40" y2="0" stroke="#74c0fc" stroke-width="2" />
+    <line x1="40" y1="0" x2="20" y2="30" stroke="#74c0fc" stroke-width="2" />
+    <line x1="40" y1="0" x2="60" y2="30" stroke="#74c0fc" stroke-width="2" />
+  </g>
+  
+  <!-- Center: Connecting Element -->
+  <g transform="translate(600, 315)">
+    <!-- Central Circle -->
+    <circle cx="0" cy="0" r="60" fill="#f76707" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+    
+    <!-- Agent Icon -->
+    <path d="M0,-15 m-20,-15 a25,25 0 1 0 40,0 a18,15 0 1 1 -40,0 M-10,-5 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0 M10,-5 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0 M-10,15 a20,10 0 0 0 30,0" fill="none" stroke="white" stroke-width="2.5" />
+    
+    <!-- Text -->
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Agent</text>
+    
+    <!-- Connection Lines -->
+    <line x1="-60" y1="0" x2="-240" y2="0" stroke="#ffffff" stroke-width="3" stroke-dasharray="10,5" />
+    <line x1="60" y1="0" x2="240" y2="0" stroke="#ffffff" stroke-width="3" stroke-dasharray="10,5" />
+  </g>
+  
+  <!-- Decorative Elements - non-overlapping -->
+  <g opacity="0.7">
+    <!-- Symbol: Chain of Thought -->
+    <g transform="translate(430, 180)" filter="url(#glow)">
+      <circle cx="0" cy="0" r="15" fill="#fff8e1" stroke="#ffab00" stroke-width="1.5" />
+      <circle cx="25" cy="0" r="15" fill="#fff8e1" stroke="#ffab00" stroke-width="1.5" />
+      <circle cx="50" cy="0" r="15" fill="#fff8e1" stroke="#ffab00" stroke-width="1.5" />
+      <line x1="15" y1="0" x2="35" y2="0" stroke="#ffab00" stroke-width="2" />
+    </g>
+    
+    <!-- Symbol: Zero-Shot -->
+    <g transform="translate(800, 180)" filter="url(#glow)">
+      <circle cx="0" cy="0" r="20" fill="none" stroke="#a5d6a7" stroke-width="2" />
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#a5d6a7">0</text>
+    </g>
+    
+    <!-- Symbol: Few-Shot -->
+    <g transform="translate(430, 450)" filter="url(#glow)">
+      <rect x="-25" y="-15" width="15" height="30" rx="2" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+      <rect x="-5" y="-15" width="15" height="30" rx="2" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+      <rect x="15" y="-15" width="15" height="30" rx="2" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+    </g>
+    
+    <!-- Symbol: ReAct -->
+    <g transform="translate(780, 450)" filter="url(#glow)">
+      <path d="M-15,-15 L15,-15 L15,15 L-15,15 Z" fill="none" stroke="#f48fb1" stroke-width="2" />
+      <path d="M-15,-15 L15,15 M-15,15 L15,-15" stroke="#f48fb1" stroke-width="2" />
+    </g>
+  </g>
+
+  <!-- Title and Subtitle -->
+  <g>
+    <text x="600" y="520" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" fill="white">The Art and Science of</text>
+    <text x="600" y="570" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" fill="white">Prompt Engineering in Multi-Agent Systems</text>
+  </g>
+
+  <!-- Floating Particles - carefully positioned to avoid overlap -->
+  <g>
+    <circle cx="150" cy="150" r="3" fill="white" opacity="0.6">
+      <animate attributeName="cy" from="150" to="140" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="150" r="2" fill="white" opacity="0.5">
+      <animate attributeName="cy" from="150" to="140" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="250" cy="550" r="2.5" fill="white" opacity="0.5">
+      <animate attributeName="cy" from="550" to="540" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="950" cy="550" r="3" fill="white" opacity="0.6">
+      <animate attributeName="cy" from="550" to="540" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="100" r="2" fill="white" opacity="0.5">
+      <animate attributeName="cy" from="100" to="90" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
